@@ -1,0 +1,10 @@
+{
+  "name": "button",
+  "dependencies": ["class-variance-authority", "clsx", "tailwind-merge"],
+  "files": [
+    {
+      "name": "Button.svelte",
+      "url": "https://raw.githubusercontent.com/username/syan-ui-library/main/src/lib/components/Button.svelte"
+    }
+  ]
+}
