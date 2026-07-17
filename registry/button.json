@@ -1,6 +1,7 @@
 {
   "name": "button",
-  "dependencies": ["class-variance-authority", "clsx", "tailwind-merge"],
+  "dependencies": ["class-variance-authority"],
+  "registryDependencies": ["utils"],
   "files": [
     {
       "name": "Button.svelte",
