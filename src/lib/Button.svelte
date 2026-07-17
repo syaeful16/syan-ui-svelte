@@ -1,8 +1,8 @@
 <script lang="ts" module>
     import { cva, type VariantProps } from 'class-variance-authority';
-    import { cn } from './utils.js';
     import type { Snippet } from 'svelte';
     import type { HTMLButtonAttributes, HTMLAnchorAttributes } from 'svelte/elements';
+	import { cn } from './utils/cn.ts';
 
     // 1. Definisikan CVA di dalam module agar bisa diekspor dan dipakai di file lain
     export const buttonVariants = cva(
