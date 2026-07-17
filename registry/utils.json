@@ -3,7 +3,7 @@
   "dependencies": ["clsx", "tailwind-merge"],
   "files": [
     {
-      "name": "utils.ts",
+      "name": "cn.ts",
       "url": "https://raw.githubusercontent.com/syaeful16/syan-ui-svelte/refs/heads/main/src/lib/utils/cn.ts"
     }
   ]
