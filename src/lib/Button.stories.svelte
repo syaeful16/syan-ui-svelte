@@ -55,8 +55,8 @@
   Tombol Default
 </Story>
 
-<Story name="Disabled" args={{ disabled: true }}>
-  Tidak Bisa Diklik
+<Story name="Outline" args={{ variant: 'outline' }}>
+  Tombol Outline
 </Story>
 
 <Story
@@ -77,10 +77,6 @@
     }}
 >
   Hapus Data
-</Story>
-
-<Story name="Outline" args={{ variant: 'outline' }}>
-  Tombol Outline
 </Story>
 
 <Story name="Ghost" args={{ variant: 'ghost' }}>
@@ -114,9 +110,6 @@
   Situs Resmi Svelte
 </Story>
 
-<Story
-  name="As Link (Button Style)"
-  args={{ href: '/dashboard' }}
->
+<Story name="As Link (Button Style)" args={{ href: '/dashboard' }}>
   Ke Dashboard
 </Story>
