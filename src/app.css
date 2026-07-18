@@ -10,6 +10,7 @@
 	--muted: #F5F5F5;
 	--muted-foreground: #737373;
 	--border: #E5E5E5;
+	--ring: #D4D4D4;
 }
 
 @theme inline {
@@ -20,4 +21,5 @@
 	--color-muted: var(--muted);
 	--color-muted-foreground: var(--muted-foreground);
 	--color-border: var(--border);
+	--color-ring: var(--ring);
 }
