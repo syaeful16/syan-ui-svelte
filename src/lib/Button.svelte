@@ -10,10 +10,10 @@
         {
             variants: {
                 variant: {
-                    default: 'bg-primary text-primary-foreground hover:bg-gray-800',
+                    default: 'bg-primary text-primary-foreground hover:bg-primary/80',
                     destructive: 'bg-red-500 text-white hover:bg-red-600',
-                    outline: 'border border-border bg-background hover:bg-gray-100 text-foreground',
-                    ghost: 'hover:bg-gray-100 text-foreground',
+                    outline: 'border border-border bg-background hover:bg-muted text-foreground',
+                    ghost: 'hover:bg-muted text-foreground',
                     link: 'text-blue-500 underline-offset-4 hover:underline',
                 },
                 size: {
