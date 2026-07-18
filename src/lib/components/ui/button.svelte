@@ -6,7 +6,12 @@
 
     // 1. Definisikan CVA di dalam module agar bisa diekspor dan dipakai di file lain
     export const buttonVariants = cva(
-        "inline-flex items-center justify-center gap-2 rounded-xl text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg:not([class*='size-'])]:size-4",
+        cn(
+            "inline-flex items-center justify-center gap-2 rounded-xl text-sm font-medium transition-colors",
+            "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-ring",
+            "disabled:pointer-events-none disabled:opacity-50",
+            "[&_svg:not([class*='size-'])]:size-4"
+        ),
         {
             variants: {
                 variant: {
